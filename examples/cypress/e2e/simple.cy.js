@@ -1,9 +1,7 @@
-describe('The Home Page', () => {
+describe('Postfinance', () => {
   it('successfully loads', () => {
-    cy.visit('https://testkube.kubeshop.io');
+    cy.visit('https://www.postfinance.ch/en/private.html')
 
-    cy.contains(
-      'Testkube provides a Kubernetes-native framework for test definition, execution and results'
-    );
+    cy.contains('Close')
   });
 });
